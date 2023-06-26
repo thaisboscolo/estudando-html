@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <!-- <Form> é para estrutura basica de formularios -->
+        <!-- inpu typ text - define o campo do formulário -->
+        <!-- <button> cria um botão -->
+
+<form>
+    Nome Completo:
+<input type="text" name="nome"> <br>
+    Email:
+<input type="email" name="email" placeholder="seunome@example.com"> <br>
+    Senha:
+<input type="password" name="senha" placeholder="Senha deve ter 5 caracteres"> <br>
+    Idade:
+<input type="number" name="idade" placeholder="digite apenas numeros"> <br>
+    Data de Nascimento:
+<input type="date" name="nascimento"> <br>
+    Telefone:
+<input type="tel" name="tel" placeholder="(xx) xxxx-xxxx"><br>
+    URL da foto:
+<input type="url" name="url"><br>
+    Foto da frente  e atrás do RG:
+<input type="file" accept=".png,  .jpeg" multiple><br>
+    Escolha sua cor favorita:
+<input type="color"> <br>
+        Estado Civil:<br>
+        Solteiro <input type="radio" name="estado-civil" value="solteiro"> <br>
+        Casado <input type="radio" name="estado-civil" value="casado"> <br>
+    Aceita os termos de uso:
+        <input type="checkbox"><br>
+    Nível de Ingles: s
+        <input type="range" min="1" max="5" step="1" name="ingle"> <br>
+    Estado que você reside:
+    <select name="estado">
+        <option disabled selected>Selecione um estado</option>
+        <option>Santa Catarina</option>
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+    </select> <br>
+
+Fale sobre você: <br>
+<textarea cols="55" rows="5">Digite aqui</textarea>
+
+
+
+<button>Enviar</button>
+    Horário de Registro:
+    <input type="time" value="15:00" disabled name="horario"> <br>
+</form>
+
+
+
+
+</body>
+</html>
