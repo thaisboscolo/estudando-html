@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <h1>Cadastre-se  em nosso banco de dados de Talentos</h1>
+
+<h3>Preencha o formulário com suas informações</h3>
+<!-- Formulário para cadastro de candidatos - recebendo os dados de cadastro -->
+<form action="">
+
+<fieldset>
+<legend><b><i>Informações Pessoais</b></i></legend>
+    <label for="nome">Nome Completo:</label><br>
+    <input type="text" name="nome" id="nome" maxlength="180" required><br>
+    <label for="datanasc">Data Nascimento:</label><br>
+    <input type="text" name="datanasc" id="datanasc" required placeholder="dd/mm/aaaa"><br>
+    <label for="senha">Email:</label><br>
+    <input type="email" name="email" id="email" required placeholder="seuemail@examplo.com.br"><br>
+    <label for="senha">Senha:</label><br>
+    <input type="password" name="senha" id="senha" required placeholder="A Senha deverá ter 5 caract".>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend><b><i>Informações Endereço</b></i></legend>
+    <label for="rua">Rua/Av:</label><br>
+    <input type="text" name="rua" id="rua" required maxlength="150"><br>
+
+    <label for="bairro">Bairro:</label><br>
+    <input type="text" name="bairro"><br>
+
+    <label for="numero">Numero:</label><br>
+    <input type="numero" name="numero"><br>
+
+    <label for="cep">CEP:</label><br>
+    <input type="text" name="cep"><br>
+    
+    Estado: <br>
+    <select name="estado">
+        <option disabled selected>Selecione um estado</option>
+        <option>Santa Catarina</option>
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+    </select>
+</fieldset>
+
+<br>
+<fieldset>
+<legend><b><i>Sobre Você</i></b></legend><br>
+<textarea cols="55" rows="6" placeholder="Fale sobre você"></textarea>
+
+<br>
+<br>
+
+<label for="atuacao">Área de Atuação</label><br>
+<select name="atuacao" id="atuacao" required>
+    <option value="" selected disabled>Selecione aula de atuação</option>
+    <option value="fullstacktack">Full stack</option>
+    <option value="cloud"><Cc:ie>Cloud</option>
+    
+    </select>
+</fieldset>
+
+<button>Enviar</button> 
+<button>Reset</button>
+
+
+
+
+</form>
+</body>
+</html>
+
+<!-- - nome completo da pessoa* (max. 200 caracteres);
+- email *
+- senha *
+- uf *
+- cidade *
+- rua *
+- numero *
+- cep * txt
+- bio *
+- área de atuação (fullstack, cloud, ambos)
+- botão de cadastrar e botão de limpar 
+
+página de login:
+- email *
+- senha *
+- lembrar de mim *
+- botão de logar e um link para cadastro-->
